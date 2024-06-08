@@ -40,9 +40,11 @@
             this.groupBox2.Controls.Add(this.btnSolicitudNota);
             this.groupBox2.Controls.Add(this.lbPromedio);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(12, 12);
+            this.groupBox2.Location = new System.Drawing.Point(18, 18);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(321, 106);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(340, 163);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Consulta del promedio general";
@@ -50,9 +52,10 @@
             // btnSolicitudNota
             // 
             this.btnSolicitudNota.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnSolicitudNota.Location = new System.Drawing.Point(109, 77);
+            this.btnSolicitudNota.Location = new System.Drawing.Point(86, 118);
+            this.btnSolicitudNota.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSolicitudNota.Name = "btnSolicitudNota";
-            this.btnSolicitudNota.Size = new System.Drawing.Size(107, 23);
+            this.btnSolicitudNota.Size = new System.Drawing.Size(160, 35);
             this.btnSolicitudNota.TabIndex = 5;
             this.btnSolicitudNota.Text = "Cerrar";
             this.btnSolicitudNota.UseVisualStyleBackColor = true;
@@ -61,27 +64,31 @@
             // 
             this.lbPromedio.AutoSize = true;
             this.lbPromedio.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lbPromedio.Location = new System.Drawing.Point(175, 41);
+            this.lbPromedio.Location = new System.Drawing.Point(129, 77);
+            this.lbPromedio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbPromedio.Name = "lbPromedio";
-            this.lbPromedio.Size = new System.Drawing.Size(19, 13);
+            this.lbPromedio.Size = new System.Drawing.Size(88, 20);
             this.lbPromedio.TabIndex = 4;
-            this.lbPromedio.Text = "    ";
+            this.lbPromedio.Text = "lbPromedio";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 41);
+            this.label2.Location = new System.Drawing.Point(9, 43);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 13);
+            this.label2.Size = new System.Drawing.Size(193, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "El promedio resultante es:";
             // 
             // FormVerResultados
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(348, 129);
+            this.ClientSize = new System.Drawing.Size(376, 198);
             this.Controls.Add(this.groupBox2);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormVerResultados";
             this.Text = "Dialogo de resultados";
             this.groupBox2.ResumeLayout(false);

@@ -34,9 +34,10 @@
             // 
             // btnConsultaPromedio
             // 
-            this.btnConsultaPromedio.Location = new System.Drawing.Point(56, 89);
+            this.btnConsultaPromedio.Location = new System.Drawing.Point(30, 71);
+            this.btnConsultaPromedio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConsultaPromedio.Name = "btnConsultaPromedio";
-            this.btnConsultaPromedio.Size = new System.Drawing.Size(107, 23);
+            this.btnConsultaPromedio.Size = new System.Drawing.Size(160, 35);
             this.btnConsultaPromedio.TabIndex = 1;
             this.btnConsultaPromedio.Text = "Consulta Promedio";
             this.btnConsultaPromedio.UseVisualStyleBackColor = true;
@@ -44,9 +45,10 @@
             // 
             // btnSolicitudNota
             // 
-            this.btnSolicitudNota.Location = new System.Drawing.Point(56, 50);
+            this.btnSolicitudNota.Location = new System.Drawing.Point(30, 26);
+            this.btnSolicitudNota.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSolicitudNota.Name = "btnSolicitudNota";
-            this.btnSolicitudNota.Size = new System.Drawing.Size(107, 23);
+            this.btnSolicitudNota.Size = new System.Drawing.Size(160, 35);
             this.btnSolicitudNota.TabIndex = 0;
             this.btnSolicitudNota.Text = "Agregar Nota";
             this.btnSolicitudNota.UseVisualStyleBackColor = true;
@@ -54,11 +56,13 @@
             // 
             // FormPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(227, 161);
+            this.ClientSize = new System.Drawing.Size(224, 119);
             this.Controls.Add(this.btnSolicitudNota);
             this.Controls.Add(this.btnConsultaPromedio);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormPrincipal";
             this.Text = "Menu principal";
             this.ResumeLayout(false);

@@ -13,10 +13,10 @@ namespace ModeloVariosFormularios
     public partial class FormPrincipal : Form
     {
         #region variables y  métodos del dominio del problema
-        static double acum;
-        static int contador;
+        double acum = 0;
+        int contador = 0;
 
-        static double CalcularPromedio()
+        double CalcularPromedio()
         {
             double promedio = 0;
             if (contador > 0)
@@ -24,7 +24,7 @@ namespace ModeloVariosFormularios
             return promedio;
         }
 
-        static void RegistrarNota(double nota)
+        void RegistrarNota(double nota)
         {
             acum += nota;
             contador++;
@@ -39,7 +39,7 @@ namespace ModeloVariosFormularios
         private void btnSolicitudNota_Click(object sender, EventArgs e)
         {
             FormAgregarNota form = new FormAgregarNota();
-            if (form.ShowDialog()==DialogResult.OK)
+            if (form.ShowDialog() == DialogResult.OK)
             {
                 double nota = Convert.ToInt32(form.tbNota.Text);
                 RegistrarNota(nota);
